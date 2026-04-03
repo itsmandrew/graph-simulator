@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graph-simulator"
+version = "0.1.0"
+description = "Graph simulator for graph algs"
+authors = ["Andrew Chang <89715746+itsmandrew@users.noreply.github.com>"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+networkx = "^3.3"
+matplotlib = "^3.9"
+pygame = "^2.6"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
